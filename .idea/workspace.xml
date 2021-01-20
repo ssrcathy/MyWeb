@@ -2,41 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f4afa4b-226a-4035-a4af-4fee5cb5b31d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-4.5.0.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/Nexa_Free_Bold-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/specimen_files/easytabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/nexa_boldfree_macroman/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/related/ElasticSVGElements.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/related/ItemRevealer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/anime.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap-4.5.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/demo1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/demo2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/demo3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/imagesloaded.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scrollMonitor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sponsor/hellosignapi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sponsor/pater.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/gooey.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/gooey.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-2.1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ly.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/demo1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/demo1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person.html" beforeDir="false" afterPath="$PROJECT_DIR$/person.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,48 +29,131 @@
     <session id="-909581072">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
-          <entry key="html" value="8" />
-          <entry key="js" value="2" />
-          <entry key="svg" value="1" />
+          <entry key="css" value="18" />
+          <entry key="html" value="12" />
+          <entry key="jpeg" value="10" />
+          <entry key="jpg" value="22" />
+          <entry key="js" value="16" />
+          <entry key="md" value="1" />
+          <entry key="png" value="1" />
+          <entry key="svg" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="8" />
-          <entry key="JavaScript" value="2" />
-          <entry key="SVG" value="1" />
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="12" />
+          <entry key="Image" value="33" />
+          <entry key="JavaScript" value="16" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SVG" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="586" />
+          <entry key="css" value="26" />
+          <entry key="html" value="1070" />
+          <entry key="js" value="1109" />
+          <entry key="md" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="586" />
+          <entry key="CSS" value="26" />
+          <entry key="HTML" value="1073" />
+          <entry key="JavaScript" value="1106" />
+          <entry key="PLAIN_TEXT" value="271" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="14" selection-start-line="29" selection-start-column="8" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="144">
+              <caret line="111" column="88" selection-start-line="111" selection-start-column="88" selection-end-line="111" selection-end-column="88" />
               <folding>
-                <element signature="n#style#0;n#nav#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/demo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="116" column="21" lean-forward="true" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/demo3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="605">
+              <caret line="333" column="65" selection-start-line="333" selection-start-column="65" selection-end-line="333" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/gooey.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="3" column="392" lean-forward="true" selection-start-line="3" selection-start-column="392" selection-end-line="3" selection-end-column="392" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/imagesloaded.pkgd.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/gooey.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret column="1513" selection-start-column="1513" selection-end-column="1513" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/person.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+              <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -100,23 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/person.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index3.html">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -124,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="156" />
+            <state relative-caret-position="1849">
+              <caret line="137" column="43" lean-forward="true" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -136,6 +185,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -145,9 +195,27 @@
       <find>sponsor</find>
       <find>mbed</find>
       <find>.pater__desc</find>
-      <find>demos</find>
       <find>enjo</find>
+      <find>#</find>
+      <find>bounce</find>
+      <find>fill</find>
+      <find>#66ffff</find>
+      <find>#9999ff</find>
+      <find>#ff99cc</find>
+      <find>content__img</find>
+      <find>#ff99ff</find>
+      <find>content--fixed</find>
+      <find>#ffcccc</find>
+      <find>morph</find>
+      <find>demos</find>
     </findStrings>
+    <replaceStrings>
+      <replace>#0099cc</replace>
+      <replace>#33ccff</replace>
+      <replace>#ff99ff</replace>
+      <replace>#ffcccc</replace>
+      <replace>#cc99cc</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -161,9 +229,13 @@
         <option value="$PROJECT_DIR$/sponsor/pater.css" />
         <option value="$PROJECT_DIR$/letters.html" />
         <option value="$PROJECT_DIR$/index3.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/person.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/css/demo.css" />
+        <option value="$PROJECT_DIR$/js/demo1.js" />
+        <option value="$PROJECT_DIR$/js/nav.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -173,11 +245,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="523" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="816" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="46" />
+    <option name="width" value="1363" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -219,9 +291,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/js/letter" />
       <recent name="$PROJECT_DIR$/css/letter" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,7 +308,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.letters.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyWeb/index2.html">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyWeb/index.html">
       <method v="2" />
     </configuration>
@@ -246,11 +321,13 @@
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.letters.html" />
+      <item itemvalue="JavaScript Debug.index2.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.letters.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index2.html" />
+        <item itemvalue="JavaScript Debug.letters.html" />
       </list>
     </recent_temporary>
   </component>
@@ -265,18 +342,20 @@
       <option name="presentableId" value="Default" />
       <updated>1609224121388</updated>
       <workItem from="1609224122702" duration="9811000" />
-      <workItem from="1609236409256" duration="285000" />
+      <workItem from="1609236409256" duration="378000" />
+      <workItem from="1609744947191" duration="15597000" />
+      <workItem from="1611108078816" duration="7965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10096000" />
+    <option name="totallyTimeSpent" value="33751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="523" y="23" width="1440" height="816" extended-state="1" />
+    <frame x="15" y="46" width="1363" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2637854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,32 +399,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/letters.html" />
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret column="1751" lean-forward="true" selection-start-column="1751" selection-end-column="1751" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="461" lean-forward="true" selection-start-line="461" selection-end-line="461" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="14" selection-start-line="29" selection-start-column="8" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -353,19 +406,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/ly.svg" />
+    <entry file="file://$PROJECT_DIR$/js/anime.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/ly.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg3.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg4.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg5.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg9.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg6.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg2.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/b1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/b6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/b5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/b3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/b4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/b2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret column="1767" lean-forward="true" selection-start-column="1767" selection-end-column="1767" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-4.5.0.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demo2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="285" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="156" />
+        <state relative-caret-position="1849">
+          <caret line="137" column="43" lean-forward="true" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/person.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="355">
+          <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2260">
+          <caret line="225" column="22" lean-forward="true" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="116" column="21" lean-forward="true" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-2.1.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demo3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="333" column="65" selection-start-line="333" selection-start-column="65" selection-end-line="333" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/gooey.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret column="1513" selection-start-column="1513" selection-end-column="1513" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/imagesloaded.pkgd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gooey.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="3" column="392" lean-forward="true" selection-start-line="3" selection-start-column="392" selection-end-line="3" selection-end-column="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="111" column="88" selection-start-line="111" selection-start-column="88" selection-end-line="111" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
