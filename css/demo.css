@@ -435,6 +435,11 @@ a:focus {
 	stroke: #22bcc0;
 }
 
+@media screen and (min-width: 50em){
+	.main-menu{
+		display: none;
+	}
+}
 @media screen and (max-width: 50em) {
 	.content--fixed {
 		height: auto;
@@ -452,6 +457,10 @@ a:focus {
 	}
 	.demos {
 		text-align: center;
+		display: none;
+	}
+	.main-menu{
+		display: inline-block;
 	}
 }
 
@@ -482,4 +491,17 @@ a:focus {
 	.content--layout {
 		transform: scale3d(0.5,0.5,1);
 	}
+}
+
+.footer{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-top: 1px solid
+}
+.main-menu{
+	position:fixed;
+	right: 40px;
+	z-index: 999999;
 }

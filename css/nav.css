@@ -1,0 +1,50 @@
+
+.content {
+    position: relative;
+    display: grid;
+}
+
+.content--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    z-index: 100;
+    pointer-events: none;
+    padding: 1.5em;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto 4em;
+    grid-template-areas:	"header ..."
+    "... decotitle"
+    "demos decotitle";
+}
+.content--fixed a {
+    pointer-events: auto;
+    color: white;
+}
+
+
+.main-menu{
+    position:fixed;
+    right: 40px;
+    z-index: 999999;
+}
+@media screen and (min-width: 50em){
+    .main-menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 50em) {
+    .content--fixed {
+        height: auto;
+        min-height: 0;
+        display: block;
+        z-index: 1000;
+        position: absolute;
+    }
+    .main-menu{
+        display: inline-block;
+    }
+}
