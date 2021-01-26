@@ -27,12 +27,12 @@ $(function(){
 						<span class="burger burger-2"></span>
 						<span class="burger burger-3"></span>
 					</label>
-					<a href="#" class="gooey-menu-item">首页</a>
-					<a href="#" class="gooey-menu-item">个人</a>
-					<a href="#" class="gooey-menu-item">作品</a>
-					<a href="#" class="gooey-menu-item">学习</a>
-					<a href="#" class="gooey-menu-item">读书</a>
-					<a href="#" class="gooey-menu-item">博客</a>
+					<a href="index.html" class="gooey-menu-item">首页</a>				
+					<a href="work.html" class="gooey-menu-item">作品</a>
+					<a href="study.html" class="gooey-menu-item">学习</a>
+					<a href="read.html" class="gooey-menu-item">读书</a>
+					<a href="blog.html" class="gooey-menu-item">博客</a>
+					<a href="person.html" class="gooey-menu-item">个人</a>
 				</nav>`
     $('.main-menu').html(smallNav);
     $("#gooey-v").gooeymenu({
