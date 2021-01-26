@@ -21,163 +21,134 @@
     <style>
         .content-box{
             max-width: 980px;
+            /*height: 100vh;*/
             margin: auto;
-        }
-        .card{
-            /*border: 2px solid palevioletred;*/
-            width: 30%;
-            height: 200px;
-            background: white;
-            position: relative;
-            text-align: center;
-        }
-        .mask{
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            right: 0;
-            z-index: 999;
-            transition: 1s;
-            cursor: pointer;
-            opacity: 0;
-            padding: 0 10px;
-            text-align: center;
-        }
-        .mask:hover{
-            background: rgba(3,0,222,0.2);
-            opacity: 1;
-            animation: rubberBand;
-            animation-duration: 1.5s;
-            /*transition: 2s;*/
-        }
-        .content-line{
-            width: 100%;
-            display:flex;
+            display: flex;
+            justify-content: center;
             align-items: center;
-            justify-content: space-around;
-            margin: 40px;
+            margin-top: 100px;
+            margin-bottom: 30px;
         }
-        .card-box{
-            flex-direction: initial;
-            align-items: center;
-            justify-content: space-around;
-
-        }
-        .content_index{
-            width: 100%;
-            overflow: scroll;
+        .image-box img{
+            height: 300px;
         }
         .text-desc{
             color: #0f6674;
         }
+        @media (min-width: 768px) and (max-width: 1024px)  {
+            ul{
+                width: 540px;
+            }
+            .image-box img{
+                height: 500px;
+            }
+        }
         @media screen and (max-width: 50em) {
-            .card-box{
-                flex-direction: column;
+            .content-box{
+                max-width: none;
+                width: 100%;
+                margin-bottom:200px;
             }
-            .card{
-                width: 80%;
-                margin: 20px 0px;
-            }
-            .content-line{
-                margin: 0px;
-            }
-            .content_index{
-                margin-bottom:180px;
+            .content_box_container{
+
             }
         }
         body{
             margin: 0;
             padding: 0;
         }
+        .image-box img{
+            width: 100%;
+        }
+        .port-7{
+            border: none;
+        }
     </style>
 
 </head>
 <body class="demo-1 loading">
-<main>
+<main style="overflow: scroll">
     <div class="content content--fixed nav"></div>
     <div class="main-menu" style="position:fixed;right: 40px;z-index: 999999;"></div>
-
-    <section class="content-box" style="display: none;">
-        <div class="content-wrap" style="pointer-events: initial;display: none;">
-            <div class="content_index">
-                <div class="content-line card-box">
-                    <div class="card" style="background: url('img/1.jpg')">
-                        <!--<img src="img/1.jpg" alt="">-->
-                        <!--<h3>网站</h3>-->
-                        <div class="mask">
-                            <h3>网站</h3>
-                            <div class="text-content">
-                                测试内容
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="mask"></div>
-                    </div>
-                </div>
-                <div class="content-line card-box">
-                    <div class="card">
-                        <div class="mask">
-                            <h3>测试数据</h3>
-                            <div class="text-content">
-                                测试内容
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="mask"></div>
-                    </div>
-                    <div class="card">
-                        <div class="mask"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="content-box">
-        <div class="" style="pointer-events: initial;">
-            <div class="">
+        <div class="content_box_container">
                 <ul>
                     <li>
-                        <div class="port-5 effect-1">
+                        <div class="port-7 effect-3">
                             <div class="image-box">
-                                <img src="img/1.jpg" alt="Image-1">
+                                <img src="img/web/shuyan.png" alt="Image-1">
                             </div>
                             <div class="text-desc">
-                                <h3>Your Title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <a href="#" class="btn">Learn more</a>
+                                <h3>数眼官网</h3>
+                                <p>为数眼科技发展有限公司实现的公司官网</p>
+                                <a href="http://shuyantech.com/" class="btn" target="_blank">详情</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="port-5 effect-2">
+                        <div class="port-7 effect-3">
                             <div class="image-box">
-                                <img src="img/2.jpg" alt="Image-2">
+                                <img src="img/web/kw.png" alt="Image-2">
                             </div>
                             <div class="text-desc">
-                                <h3>Your Title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <a href="#" class="btn">Learn more</a>
+                                <h3>知识工厂</h3>
+                                <p>为知识工厂实验室实现界面改版与实现</p>
+                                <a href="http://kw.fudan.edu.cn/" class="btn" target="_blank">详情</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="port-5 effect-3">
+                        <div class="port-7 effect-3">
                             <div class="image-box">
-                                <img src="img/3.jpg" alt="Image-3">
+                                <img src="img/web/curiosity.png" alt="Image-3">
                             </div>
                             <div class="text-desc">
-                                <h3>Your Title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <a href="#" class="btn">Learn more</a>
+                                <h3>curiosity</h3>
+                                <p>知识图谱可视化系统</p>
+                                <p>产品完善与页面功能完善</p>
+                                <a href="#" class="btn">详情</a>
                             </div>
                         </div>
                     </li>
                 </ul>
-            </div>
+            <ul>
+                <li>
+                    <div class="port-7 effect-3">
+                        <div class="image-box">
+                            <img src="img/b1.jpg" alt="Image-1">
+                        </div>
+                        <div class="text-desc">
+                            <h3>Your Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn">Learn more</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="port-7 effect-3">
+                        <div class="image-box">
+                            <img src="img/b2.jpg" alt="Image-2">
+                        </div>
+                        <div class="text-desc">
+                            <h3>Your Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn">Learn more</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="port-7 effect-3">
+                        <div class="image-box">
+                            <img src="img/b3.jpg" alt="Image-3">
+                        </div>
+                        <div class="text-desc">
+                            <h3>Your Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn">Learn more</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
 
 
