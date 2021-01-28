@@ -505,3 +505,13 @@ a:focus {
 	right: 40px;
 	z-index: 999999;
 }
+.content-box{
+	max-width: 980px;
+	/*height: 100vh;*/
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
