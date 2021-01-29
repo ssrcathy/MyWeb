@@ -506,7 +506,7 @@ a:focus {
 	z-index: 999999;
 }
 .content-box{
-	max-width: 980px;
+	max-width: 1200px;
 	/*height: 100vh;*/
 	margin: auto;
 	display: flex;
