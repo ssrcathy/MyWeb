@@ -4,7 +4,7 @@ $(function(){
 					<a class="demo" href="index.html" id="index">首页</a>					
 					<a class="demo" href="work.html" id="index3">作品</a>
 					<a class="demo" href="study.html" id="index3">学习</a>
-					<a class="demo" href="read.html" id="index3">读书</a>
+					<!--<a class="demo" href="read.html" id="index3">读书</a>-->
 					<a class="demo" href="blog.html" id="index3">博客</a>
 					<a class="demo" href="person.html" id="person">个人</a>
 				</nav>
@@ -30,7 +30,7 @@ $(function(){
 					<a href="index.html" class="gooey-menu-item">首页</a>				
 					<a href="work.html" class="gooey-menu-item">作品</a>
 					<a href="study.html" class="gooey-menu-item">学习</a>
-					<a href="read.html" class="gooey-menu-item">读书</a>
+					<!--<a href="read.html" class="gooey-menu-item">读书</a>-->
 					<a href="blog.html" class="gooey-menu-item">博客</a>
 					<a href="person.html" class="gooey-menu-item">个人</a>
 				</nav>`

@@ -142,7 +142,8 @@ body {
     margin: 1em 0 0 0;
     font-weight: 300;
     font-size: 1.8em;
-    font-family: "Abril Fatface", serif;
+    /*font-family: "Abril Fatface", serif;*/
+    font-family: font-family: 'Roboto Mono', monospace;
 }
 
 .bookshelf figcaption h2 span {
@@ -154,7 +155,8 @@ body {
     letter-spacing: 1px;
     font-weight: 400;
     font-size: 0.4em;
-    font-family: "Lato", sans-serif;
+    /*font-family: "Lato", sans-serif;*/
+    font-family: font-family: 'Roboto Mono', monospace;
 }
 
 .bookshelf figcaption h2 span::before,
@@ -319,7 +321,8 @@ body {
     text-align: center;
     font-weight: 400;
     font-size: 3em;
-    font-family: "Sacramento", serif;
+    /*font-family: "Sacramento", serif;*/
+    font-family: font-family: 'Roboto Mono', monospace;
 }
 
 .page-layout-1 h3 span {
@@ -329,7 +332,8 @@ body {
     border-bottom: 1px solid #333;
     text-transform: uppercase;
     font-size: 3em;
-    font-family: "Six Caps", sans-serif;
+    /*font-family: "Six Caps", sans-serif;*/
+    font-family: font-family: 'Roboto Mono', monospace;
     line-height: 1;
 }
 
@@ -337,7 +341,8 @@ body {
     padding: 0 10px;
     text-align: right;
     font-style: italic;
-    font-family: "Cardo", serif;
+    /*font-family: "Cardo", serif;*/
+    font-family: font-family: 'Roboto Mono', monospace;
 }
 
 .page-layout-2 {
@@ -366,7 +371,8 @@ body {
 .page-layout-2 h3 {
     margin: 0;
     font-size: 6em;
-    font-family: "Cardo", serif;
+    /*font-family: "Cardo", serif;*/
+    font-family: font-family: 'Roboto Mono', monospace;
 }
 
 .page-layout-3:last-child {
@@ -385,14 +391,16 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 14em;
-    font-family: "Six Caps", sans-serif;
+    /*font-family: "Six Caps", sans-serif;*/
+    font-family: font-family: 'Roboto Mono', monospace;
 }
 
 .page-layout-3 p {
     margin: 0;
     text-indent: 5px;
     font-style: italic;
-    font-family: "Cardo", serif;
+    /*font-family: "Cardo", serif;*/
+    font-family: font-family: 'Roboto Mono', monospace;
 }
 
 /* Book navigation */
