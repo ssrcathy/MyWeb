@@ -20,6 +20,26 @@ $(function(){
 				</a>`
     $('.nav').html(nav);
 
+   let header_nav = `<a href="" style="float: left;"><img src="img/ly.png" alt="" width="80px"></a>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="work.html">作品</a></li>
+                    <li><a href="study.html">学习</a></li>
+                    <li><a href="blog.html">博客</a></li>
+                    <li><a href="person.html">个人</a></li>`;
+   $('.header-nav').html(header_nav)
+    window.onscroll=function (e) {
+        let  body_w = $(window).width();
+        let body_t = $(window).scrollTop();
+        if (body_w>800){
+            if (body_t>80){
+                $('.header').css('background','#003399')
+
+            }else {
+                $('.header').css('background','')
+            }
+        }
+    }
+
     let smallNav = `<nav id="gooey-v" style="max-width: 80px">
 					<input type="checkbox" class="menu-open" name="menu-open4" id="menu-open4"/>
 					<label class="open-button" for="menu-open4">

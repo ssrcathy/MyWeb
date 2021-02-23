@@ -462,6 +462,7 @@ a:focus {
 	.main-menu{
 		display: inline-block;
 	}
+
 }
 
 @media screen and (max-width: 40em) {

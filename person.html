@@ -1,63 +1,113 @@
-<!DOCTYPE html>
-<html lang="zh-CN" class="no-js">
+<!doctype html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>刘跃｜博客</title>
-    <meta name="description" content="一个兴趣广泛的前端工程师的网站" />
-    <meta name="keywords" content="前端, HTML, front-web, CSS, JS, ES6, 个人博客, 网站, javascript,vue,d3.js" />
-    <meta name="author" content="刘跃" />
-    <link rel="shortcut icon" href="img/fl.png">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="sponsor/pater.css" />
-    <link rel="stylesheet" href="css/gooey.min.css">
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/gooey.min.js"></script>
+    <!-- <meta charset="gbk" /> -->
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />-->
+    <title>ppt-h5特效</title>
+    <style type="text/css">
+        .STYLE3 { font-size: 50px }
+        .STYLE4 { font-size: 100px }
 
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-
-
-    <style>
-        figure,.bb-custom-wrapper{
-            color: black;
-        }
-        .main{
-            background: aliceblue;
-            padding-bottom: 40px;
-        }
-        .details a:hover{
-            color: #003399;
-        }
     </style>
-
+    <link href="css/person/qqguoji.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/nav.js"></script>
+    <link rel="stylesheet" href="css/gooey.min.css">
+    <script src="js/gooey.min.js"></script>
 </head>
-<body class="demo-1">
-<main style="overflow: scroll">
-    <div class="content content--fixed nav"></div>
+<body class="-not-supportedimpress" onLoad="timedCount()">
+<div class="header"  style="pointer-events: auto">
+    <ul class="header-nav"></ul>
     <div class="main-menu"></div>
-    <section class="content-box">
-        <div id="scroll-wrap" class="container">
-            <div class="main">
+</div>
+<!-- <div class="fallback-message">
+  <p>空格键»或者按键上下左右
+    <ddd> 3D </ddd>
+    ÌØÐ§£¬Ö×Ã´°ì£¿</p>
+  <p><b>²»向右</b></p>
+  <p>ÇëÏÂÔØ×îÐÂµÄ <b>Chrome</b>, <b>Safari</b> »òÕß <b>Firefox</b> ä¯ÀÀÆ÷(360¼±ËÙ£¬ËÑ¹·µÄ"¼«ËÙÄ£Ê½"Ò²¿ÉÒÔÅ¶~)</p>
+</div> -->
+<div id="impress" style="color: white">
+    <!--   <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+       <q>
+          <p>印象</p>
+          <p><b>第一页 </b>第二印象</p>
+        </q>多余描述文字
+      </div>
+      <div class="step slide" data-x="0" data-y="-1500"> <q>
+        <p>第二页</p>
+        <p><b> IQ </p>
+        </q> 点击作品<a href="http://www.internetke.com/" target="_blank">深度阅读</a> </div>
+      <div class="step slide" data-x="1000" data-y="-1500"> <q>
+        <p>第三页</p>
+        <p>生活中的<b> 故事</b>分享</p>
+        </q> </div> -->
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <p><span class="try">前端小菜鸟</span></p>
+        <p>&nbsp;</p>
+        <!--<p><span class="px60 STYLE3">前端小菜鸟</span>-->
+            <span class="footnote">一个菜鸟的独白，感兴趣的可以按键下或者右键</span>
+        </p>
+    </div>
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>入坑前端的溯源</p>
+        <div>
+            <span style="font-size:2rem">自以为前端就是设计设计页面，搞搞配色等，学了前端之后才发现自己too yang too simple</span>
+        </div>
 
-            </div><!-- /main -->
-        </div><!-- /container -->
-    </section>
+    </div>
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>
+            <!--<b></b>-->
+            <span class="thoughts">累计接触时间3年</span>
 
-    <section class="content footer">
-        该网站仅用于学习与交流
-    </section>
-</main>
+            <!--<b><span id="shijian"></span></b>-->
+            <!--<span class="thoughts">时间</span>-->
+        </p>
+    </div>
+    <!--<div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">-->
+        <!--<p>期间主要做<b>产品研发  </b>升级</p>-->
+    <!--</div>-->
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p><span class="px60">发现</span> <b class="positioning">前端真的需要学无止境的心态</b><b class="rotating">吃苦耐劳的精神</b><br>
+            <span class="px60">才会</span> <b class="scaling">有所收获</b><br />
+            <xiaozi>关键是前端涉及的范围太广太杂,学习起来真心不容易</xiaozi>
+        </p>
+    </div>
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <span style="font-size: 2rem">QQ邮箱:1628368068@qq.com</span>
+        <p>希望大家多多交流<br />
 
-
-
-<!--<script src="js/imagesloaded.pkgd.min.js"></script>-->
-<script src="js/anime.min.js"></script>
-<!--<script src="js/scrollMonitor.js"></script>-->
-<script src="js/nav.js?v=4"></script>
-
+            <b class="imagination STYLE4"></b></>
+    </div>
+    <!--<div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">-->
+        <!--<p>第六步 <br />-->
+            <!--<b>这是一条占位文字</b></p>-->
+    <!--</div>-->
+    <div id="one-more-thing" class="step" data-x="5000" data-y="1500" data-scale="3">
+        <p>最后,该网站只用于学习与交流，如有侵权请告知</p>
+    </div>
+    <div id="its-in-3d" class="step" data-x="6200" data-y="3300" data-z="-100" data-rotate-x="10" data-rotate-y="-10" data-scale="6">
+        <p><span class="have">请</span><span class="its">关注我的网站</span></p>
+        <span class="footnote">(foot note <a href="">www.ly.com</a>)</span> </div>
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10"> </div>
+</div>
+<div class="hint">
+    <p>请按空格键»<-或者->键</p>
+</div>
 <script>
+    if ("ontouchstart" in document.documentElement) {
+        document.querySelector(".hint").innerHTML = "<p>°´ÏÂ ¡û ¡ú ²Ù¿Ø</p>";
+    }
 </script>
+
+<script src="js/person/yhc.js"></script>
+<script src="js/person/main.js" charset="utf-8"></script>
+<script>impress().init();</script>
 
 </body>
 </html>

@@ -48,3 +48,46 @@
         display: inline-block;
     }
 }
+
+/*new nav*/
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    display: inline-block;
+    color: white;
+    position: fixed;
+    z-index: 88;
+    /*background: #003399;*/
+    height: 80px;
+    transition: 1s;
+}
+.header ul{
+    padding-left: 40px;
+}
+
+.header ul:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.header ul>li{
+    float: left;
+    margin: 20px;
+}
+.header ul li a{
+    vertical-align: middle;
+    line-height: 40px;
+}
+.header a{
+    color: white;
+    vertical-align:middle;
+}
+@media screen and (max-width: 50em){
+    .header-nav{
+        display: none;
+    }
+}

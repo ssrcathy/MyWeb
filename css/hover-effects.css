@@ -35,8 +35,8 @@ h2 span:after{content: ""; width: 50%; height: 3px; background-color: #fff; posi
 *{margin: 0; padding: 0; box-sizing: border-box;}
 img{max-width: 100%; vertical-align: middle;}
 .full-length{width: 100%; float: left; padding-bottom: 80px;}
-ul{margin: 0 -1.5%;}
-li{float: left; width: 31.33%; margin: 10px 1%; list-style: none;}
+.book_item{margin: 0 -1.5%;}
+.book_item li{float: left; width: 31.33%; margin: 10px 1%; list-style: none;}
 
 h3{font-size: 20px; margin: 5px 0 10px;}
 p{font-weight: 300; line-height: 20px; font-size: 14px; margin-bottom: 15px;}

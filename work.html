@@ -8,6 +8,7 @@
     <meta name="keywords" content="前端, HTML, front-web, CSS, JS, ES6, 个人博客, 网站, javascript,vue,d3.js" />
     <meta name="author" content="刘跃" />
     <link rel="shortcut icon" href="img/fl.png">
+    <link rel="stylesheet" type="text/css" href="css/nav.css" />
     <!--<link rel="stylesheet" type="text/css" href="css/normalize.css" />-->
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="sponsor/pater.css" />
@@ -16,6 +17,7 @@
     <script src="js/gooey.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/hover-effects.css">
+
     <!--<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">-->
     <!--<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
     <style>
@@ -36,7 +38,7 @@
             color: #0f6674;
         }
         @media (min-width: 768px) and (max-width: 1024px)  {
-            ul{
+            .book_item{
                 width: 540px;
             }
             .image-box img{
@@ -49,14 +51,11 @@
                 width: 100%;
                 margin-bottom:200px;
             }
-            .content_box_container{
-
-            }
         }
-        body{
-            margin: 0;
-            padding: 0;
-        }
+        /*body{*/
+            /*margin: 0;*/
+            /*padding: 0;*/
+        /*}*/
         .image-box img{
             width: 100%;
         }
@@ -67,12 +66,14 @@
 
 </head>
 <body class="demo-1 loading">
+<div class="header">
+    <ul class="header-nav"></ul>
+    <div class="main-menu"></div>
+</div>
 <main style="overflow: scroll">
-    <div class="content content--fixed nav"></div>
-    <div class="main-menu" style="position:fixed;right: 40px;z-index: 999999;"></div>
     <section class="content-box">
         <div class="content_box_container">
-                <ul>
+                <ul class="book_item">
                     <li>
                         <div class="port-7 effect-3">
                             <div class="image-box">
