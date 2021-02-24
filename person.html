@@ -18,53 +18,47 @@
     <script src="js/nav.js"></script>
     <link rel="stylesheet" href="css/gooey.min.css">
     <script src="js/gooey.min.js"></script>
+    <style>
+        .textBorder{
+            border: 1px solid #ffcccc ;
+            border-radius: 10px;
+            padding: 20px;
+            writing-mode: vertical-lr;
+            background: #ffcccc;
+            /*color: #003399;*/
+        }
+
+    </style>
 </head>
 <body class="-not-supportedimpress" onLoad="timedCount()">
 <div class="header"  style="pointer-events: auto">
     <ul class="header-nav"></ul>
     <div class="main-menu"></div>
 </div>
-<!-- <div class="fallback-message">
-  <p>空格键»或者按键上下左右
-    <ddd> 3D </ddd>
-    ÌØÐ§£¬Ö×Ã´°ì£¿</p>
-  <p><b>²»向右</b></p>
-  <p>ÇëÏÂÔØ×îÐÂµÄ <b>Chrome</b>, <b>Safari</b> »òÕß <b>Firefox</b> ä¯ÀÀÆ÷(360¼±ËÙ£¬ËÑ¹·µÄ"¼«ËÙÄ£Ê½"Ò²¿ÉÒÔÅ¶~)</p>
-</div> -->
 <div id="impress" style="color: white">
-    <!--   <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
-       <q>
-          <p>印象</p>
-          <p><b>第一页 </b>第二印象</p>
-        </q>多余描述文字
-      </div>
-      <div class="step slide" data-x="0" data-y="-1500"> <q>
-        <p>第二页</p>
-        <p><b> IQ </p>
-        </q> 点击作品<a href="http://www.internetke.com/" target="_blank">深度阅读</a> </div>
-      <div class="step slide" data-x="1000" data-y="-1500"> <q>
-        <p>第三页</p>
-        <p>生活中的<b> 故事</b>分享</p>
-        </q> </div> -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <p><span class="try">个人简述</span></p>
-        <p>&nbsp;</p>
-        <!--<p><span class="px60 STYLE3">前端小菜鸟</span>-->
-            <span class="footnote">一个菜鸟的独白，感兴趣的可以按键下或者右键</span>
-        </p>
+    <div id="title" class="step" data-x="600" data-y="0" data-scale="4" >
+
+        <div><span class="try textBorder" style=" writing-mode: vertical-lr;margin-left:100px;">个人简述</span></div>
+        <div style="margin-top:-50px;text-align: left; ">
+            <!--<span><img src="img/bg4.jpeg" alt="" width="200px"height="200px"></span><br>-->
+            <span class="footnote">职业：前端工程师</span><br>
+            <span class="footnote">性别：女</span><br>
+            <span class="footnote">年龄：27</span><br>
+            <span class="footnote">学历：本科</span><br>
+            <span class="footnote">专业：信息管理与信息系统</span><br>
+        </div>
     </div>
     <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>入坑前端的溯源</p>
-        <div>
-            <span style="font-size:2rem">自以为前端就是设计设计页面，搞搞配色等，学了前端之后才发现自己too yang too simple</span>
+        <p class="textBorder">初识</p>
+        <div style="margin-top:30px;margin-left: 00px ">
+            <span style="font-size:2rem;"><p>自以为前端就是设计设计页面，搞搞配色等，学了前端之后才发现自己too yang too simple</p></span>
         </div>
 
     </div>
     <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
         <p>
-            <!--<b></b>-->
-            <span class="thoughts">累计接触时间3年</span>
-
+            <span class="thoughts textBorder">时间</span>
+            <p style="margin-top: 50px">累计接触约4年</p>
             <!--<b><span id="shijian"></span></b>-->
             <!--<span class="thoughts">时间</span>-->
         </p>
@@ -73,16 +67,16 @@
         <!--<p>期间主要做<b>产品研发  </b>升级</p>-->
     <!--</div>-->
     <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p><span class="px60">发现</span> <b class="positioning">前端真的需要学无止境的心态</b><b class="rotating">吃苦耐劳的精神</b><br>
+        <p><span class="px60 textBorder" >发现</span> <b class="positioning">前端真的需要学无止境的心态</b><b class="rotating">吃苦耐劳的精神</b><br>
             <span class="px60">才会</span> <b class="scaling">有所收获</b><br />
-            <xiaozi>关键是前端涉及的范围太广太杂,学习起来真心不容易</xiaozi>
+            <!--<xiaozi>关键是前端涉及的范围太广太杂,学习起来真心不容易</xiaozi>-->
         </p>
     </div>
     <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <span style="font-size: 2rem">QQ邮箱:1628368068@qq.com</span>
+        <span class="thoughts textBorder">联系</span><br>
+        <span style="font-size: 2rem">QQ邮箱:1628368068@qq.com</span><br>
         <span style="font-size: 2rem">Gmail:liuyueliedai@gmail.com</span><br>
         <div style="font-size: 2rem"> csdn账号: <a href="https://blog.csdn.net/Lydia_4">https://blog.csdn.net/Lydia_4</a></div>
-        <p>希望大家多多交流<br />
 
             <b class="imagination STYLE4"></b></>
     </div>
