@@ -206,8 +206,8 @@ p{font-weight: 300; line-height: 20px; font-size: 14px; margin-bottom: 15px;}
 /*= Media Screen CSS
 ==================== */
 @media only screen and (max-width: 1090px){
-	ul{width: 340px; margin: 0 auto;}
-	li{width: 100%; margin: 20px 0;}
+	.book_item{width: 340px; margin: 0 auto;}
+	.book_item li{width: 100%; margin: 20px 0;}
 	.port-5.effect-1 {z-index: 19;}
 }
 

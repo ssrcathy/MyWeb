@@ -22,23 +22,28 @@
         }
         .main{
             /*background: aliceblue;*/
-            /*width: 980px;*/
+            max-width: 980px;
             padding-bottom: 40px;
+            margin: 30px;
         }
         .details a:hover{
             color: #003399;
         }
         .content_item{
-            width: 500px;
-            /*width: 100%;*/
             min-height: 200px;
-            border-left: 3px solid #ffcccc;
+            /*border: 3px solid #ffcccc;*/
+            border-bottom: 1px solid #ffcccc;
             margin: 20px 0;
-            padding: 20px;
+            padding:60px 20px;
+            margin-bottom: 30px;
+            /*float: left;*/
+            /*writing-mode: vertical-lr;*/
 
         }
         .content_item:hover{
-            border-left: 3px solid #003399;
+            /*border-left: 3px solid #003399;*/
+            border: 1px solid #003399;
+            /*border: 1px solid #ffcccc;*/
             cursor: pointer;
             animation-direction: reverse;
             animation: ease;
@@ -51,7 +56,35 @@
         .content_item article{
 
         }
+        .content_item:after{
+            content: " ";
+            display: block;
+            clear: both;
+        }
+        .content_item_title{
+            border: 1px solid #ffcccc;
+            border-radius: 10px;
+            padding: 20px;
+            writing-mode: vertical-lr;
+            background: #ffcccc;
+            color: #003399;
+            display: inline-block;
+            float: left;
+            margin:20px;
+        }
+        .content_item_text{
+            /*float: right;*/
+            margin:0 20px;
+            text-indent: 2em;
+            line-height: 1.5em;
+            /*float:right;*/
+        }
+        .line_limit_length {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; //文本不换行，这样超出一行的部分被截取，显示...
 
+        }
     </style>
 
 </head>
@@ -65,12 +98,29 @@
         <div id="scroll-wrap" class="container">
             <div class="main">
                 <div class="content_item">
-                    <img src="img/b4.jpg" alt="" >
-                    <article>
+                    <!--<img src="img/b4.jpg" alt="" >-->
+                    <span class="content_item_title">这是标题</span>
+                    <article class="content_item_text ">
                         这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述
                     </article>
+
                 </div>
-                <div class="content_item"></div>
+                <div class="content_item">
+                    <!--<img src="img/b4.jpg" alt="" >-->
+                    <span class="content_item_title">这是标题</span>
+                    <article class="content_item_text ">
+                        这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述
+                    </article>
+
+                </div>
+                <div class="content_item">
+                    <!--<img src="img/b4.jpg" alt="" >-->
+                    <span class="content_item_title">这是标题</span>
+                    <article class="content_item_text ">
+                        这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述 这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述这是一段文字性描述
+                    </article>
+
+                </div>
                 <div class="content_item"></div>
             </div><!-- /main -->
         </div><!-- /container -->
